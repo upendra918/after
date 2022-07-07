@@ -1,4 +1,4 @@
  hello conflicts
-
-thing
-ithingggfyv
+<<<<<<< HEAD
+ adding extra content than masterbranch to check conflicts
+>>>>>>> master-1
