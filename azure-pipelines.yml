@@ -25,7 +25,6 @@ steps:
     Contents: '**/*.war/jar'
     TargetFolder: '$(build.artifactstagingdirectory)'
     CleanTargetFolder: true
-- 
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
